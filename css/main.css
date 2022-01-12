@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@media screen and (min-width:1350px) {
+	.tb, .sm { display:none; }
+	
+	section {
+		display:flex;
+		justify-content:space-between;
+		width:1300px; margin:0 auto; padding:50px 0;
+	}
+	article {
+		width:25%; padding:0 30px;
+		border-right:1px solid #d8d8d8;
+	}
+	article:nth-child(4) { border:0; }
+	article h3 { font-size:34px; color:#06f; }
+	article div { width:100%; height:80px; margin-top:20px; }
+	article .bg1 { background:url(../imgs/mc_d1.jpg) }
+	article .bg2 { background:url(../imgs/mc_d2.jpg) }
+	article .bg3 { background:url(../imgs/mc_d3.jpg) }
+	article .bg4 { background:url(../imgs/mc_d4.jpg) }
+	article p { margin-top:20px; line-height:18px; }
+}
+
+@media screen and (min-width:1050px) and (max-width:1349px) {
+	.dt, .sm { display:none; }
+	
+	section {
+		display:flex;
+		justify-content:space-between;
+		width:980px; margin:0 auto; padding:50px 0;
+	}
+	article {
+		width:25%; padding:0 20px;
+		border-right:1px solid #d8d8d8;
+	}
+	article:nth-child(4) { border:0; }
+	article h3 { font-size:34px; color:#06f; }
+	article div { width:100%; height:80px; margin-top:20px; }
+	article .bg1 { background:url(../imgs/mc_d1.jpg) }
+	article .bg2 { background:url(../imgs/mc_d2.jpg) }
+	article .bg3 { background:url(../imgs/mc_d3.jpg) }
+	article .bg4 { background:url(../imgs/mc_d4.jpg) }
+	article p { margin-top:20px; line-height:18px; }
+}
+
+@media screen and (min-width:660px) and (max-width:1049px) {
+	.dt, .sm { display:none; }
+	.tb { padding-top:50px; }
+	
+	section { width:100%; margin:0 auto; }
+	article {
+		float:left; width:50%;
+		margin-top:50px; padding:0 20px;
+	}	
+	article h3 { font-size:30px; color:#06f; }
+	article div { width:100%; height:100px; margin-top:15px; }
+	article .bg1 { background:url(../imgs/mc_t1.jpg) }
+	article .bg2 { background:url(../imgs/mc_t2.jpg) }
+	article .bg3 { background:url(../imgs/mc_t3.jpg) }
+	article .bg4 { background:url(../imgs/mc_t4.jpg) }
+	article p { margin-top:15px; line-height:18px; }
+}
+
+@media screen and (max-width:659px) {
+	.dt, .tb { display:none; }
+	.sm { padding-top:50px; }
+	
+	section { width:100%; margin:0 auto; }
+	article {
+		float:left; width:100%;
+		margin-top:30px; padding:0 20px;
+	}	
+	article h3 { font-size:30px; color:#06f; }
+	article div { width:100%; height:100px; margin-top:15px; }
+	article .bg1 { background:url(../imgs/mc_s1.jpg) }
+	article .bg2 { background:url(../imgs/mc_s2.jpg) }
+	article .bg3 { background:url(../imgs/mc_s3.jpg) }
+	article .bg4 { background:url(../imgs/mc_s4.jpg) }
+	article p { margin-top:15px; line-height:18px; }
+}
+
